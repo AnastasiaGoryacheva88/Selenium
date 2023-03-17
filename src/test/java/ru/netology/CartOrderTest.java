@@ -17,7 +17,7 @@ public class CartOrderTest {
 
     @BeforeAll
     static void setUoAll() {
-//        System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+       System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
     }
 
